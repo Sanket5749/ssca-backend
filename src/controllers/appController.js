@@ -155,8 +155,15 @@ const serializeStudent = (student) => {
   };
 };
 
-const filterStudentsByUser = (students, user) =>
-  user.role === "teacher" ? students.filter((student) => student.branch === user.branch) : students;
+const filterStudentsByUser = (students, user) => {
+  if (user.role === "teacher") {
+    return students.filter((student) => student.branch === user.branch);
+  }
+  if (user.role === "student") {
+    return students.filter((student) => student.id === user.id);
+  }
+  return students;
+};
 
 const getDashboardPayload = async (user, branchOverride) => {
   const where = {};
