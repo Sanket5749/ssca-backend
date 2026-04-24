@@ -27,7 +27,7 @@ const PORT = Number(process.env.PORT || 4000);
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://ssca-frontend.vercel.app/",
   })
 );
 app.use(express.json({ limit: "2mb" }));
@@ -72,7 +72,7 @@ const startServer = async () => {
   await seedDefaultData();
 
   app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on https://ssca-frontend.vercel.app/`);
   });
 };
 
