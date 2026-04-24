@@ -1,0 +1,70 @@
+{
+  "weights": {
+    "academics": 25,
+    "skills": 30,
+    "projects": 15,
+    "certifications": 10,
+    "aptitudeCoding": 15,
+    "extracurricular": 5
+  },
+  "readinessThresholds": {
+    "high": 75,
+    "medium": 50
+  },
+  "levelScores": {
+    "Beginner": 40,
+    "Intermediate": 70,
+    "Advanced": 92
+  },
+  "projectComplexityScores": {
+    "Low": 45,
+    "Medium": 72,
+    "High": 94
+  },
+  "thresholds": {
+    "strongCgpa": 8.5,
+    "goodCgpa": 8,
+    "riskCgpa": 6,
+    "advancedDsaScore": 75,
+    "lowAptitude": 50,
+    "highAttendance": 85,
+    "lowAttendance": 60,
+    "highPlacementRiskBacklogs": 2,
+    "industryAlignedCertifications": 2,
+    "excellentProjects": 3,
+    "minimumProjects": 2,
+    "strongLeetCode": 200,
+    "goodLanguageCount": 3,
+    "competitiveExposureHackathons": 2,
+    "communicationConcern": 55
+  },
+  "idealPlacementProfile": {
+    "requiredSkills": [
+      "DSA",
+      "Frontend Development",
+      "Backend Development",
+      "MERN",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks"
+    ],
+    "minimumSkillScore": 70,
+    "minimumProjects": 3,
+    "minimumCertifications": 2,
+    "minimumLeetCodeSolved": 150,
+    "minimumAptitude": 60
+  },
+  "suggestionMap": {
+    "Needs improvement in aptitude skills": "Practice aptitude sets daily and review quantitative shortcuts.",
+    "Needs industry exposure": "Complete certifications from Coursera, NPTEL, or similar trusted platforms.",
+    "Insufficient practical exposure": "Build 2-3 real-world projects using modern tech stacks and deploy them.",
+    "Critical practical exposure gap": "Start with guided mini-projects, then move to one end-to-end major project.",
+    "Lacks system-level development skills": "Work on backend APIs, databases, and deployment fundamentals.",
+    "Weak problem-solving exposure": "Solve 2-3 DSA problems daily on platforms like LeetCode.",
+    "Low attendance and discipline concern": "Improve attendance consistency and maintain a structured weekly schedule.",
+    "Multiple active backlogs impact placement readiness": "Prioritize backlog clearance alongside placement preparation.",
+    "Academic consistency issue": "Review recent semester performance and strengthen weak core subjects.",
+    "Poor portfolio visibility": "Add GitHub repositories with clean README files and live demos where possible.",
+    "Communication needs structured practice": "Participate in mock interviews, presentations, and group discussions."
+  }
+}
