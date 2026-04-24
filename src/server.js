@@ -27,7 +27,7 @@ const PORT = Number(process.env.PORT || 4000);
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: [process.env.CLIENT_URL, "https://ssca-frontend.vercel.app", "http://localhost:5173"].filter(Boolean),
   })
 );
 app.use(express.json({ limit: "2mb" }));
